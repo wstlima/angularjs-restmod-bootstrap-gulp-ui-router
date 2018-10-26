@@ -6,11 +6,12 @@ O objetivo é apresentar os conhecimentos na construção de um front end utiliz
 * RestMod
 * Gulp
 * UI-Router
+* BrowserSync
 
 ## Crud API DropWizard
 https://github.com/wstlima/dropwizard-mysql-rest
 
-## Servidor de desenvolvimento
+## Para Rodar
 * O back end deve estar rodando
 * clone o projeto
 * Rode `npm i` para fazer o download dos módulos node.js. 

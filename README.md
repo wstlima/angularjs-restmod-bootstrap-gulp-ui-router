@@ -14,4 +14,4 @@ https://github.com/wstlima/dropwizard-mysql-rest
 * O back end deve estar rodando
 * clone o projeto
 * Rode `npm i` para fazer o download dos módulos node.js. 
-* Rode `gulp` para rodar o gulp e assim rodar o browserSync que vai abrir em seu navegador http://localhost:3000
+* Rode `gulp` para executar as tarefas do Gulp e assim criar a pasta dist e rodar o browserSync que vai abrir em seu navegador no link: http://localhost:3000

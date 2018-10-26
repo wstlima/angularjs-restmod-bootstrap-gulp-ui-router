@@ -1,0 +1,26 @@
+{
+  "name": "angularjs-restmod-bootstrap-gulp-uirouter",
+  "version": "1.2.2",
+  "description": "O objetivo é apresentar os conhecimentos na construção de um front end, com boas práticas utilizando: AngularJS, RestMod, Bootstrap e o Gulp.",
+  "keywords": [
+    "html",
+    "js",
+    "css",
+    "minifier",
+    "gulpplugin",
+    "angularjs"
+  ],
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-watch": "^5.0.1",
+    "merge-stream": "^1.0.1",
+    "run-sequence": "^2.2.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

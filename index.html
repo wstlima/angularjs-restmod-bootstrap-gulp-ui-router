@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <!-- VENDORS -->
+    <script src="src/vendors/js/jquery-1.11.1.min.js"></script>
+    <script src="src/vendors/js/bootstrap.min.js"></script>
+    <script src="src/vendors/js/angular.min.js"></script>
+    <script src="src/vendors/js/angular-route.js"></script>
+    <script src="src/vendors/js/angular-restmod-bundle.min.js"></script>
+    <script src="src/vendors/js/ng-table.min.js"></script>
+    <script src="src/vendors/js/angular-ui-router.js"></script>
+    <link rel="stylesheet" href="src/vendors/css/ng-table.min.css">
+    <link href="src/vendors/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="shortcut icon" href="src/assets/images/favicon.ico" />
+
+    <!-- APP -->
+    <link rel="stylesheet" href="src/assets/css/app.style.css" />
+    <script src="src/app/app.js"></script>
+    <script src="src/app/routing.js"></script>
+    <script src="src/app/produto/add/add-controller.js"></script>
+    <script src="src/app/produto/edit/edit.controller.js"></script>
+    <script src="src/app/produto/list/list-controller.js"></script> 
+
+    <base href="/">
+    <title>AngularJS + RestMod + BootStrap + Gulp</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://cdnjs.cloudflare.com ">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header text-center">
+            <div class="row text-center">
+                <div class="col-xs-12 text-left">
+                    <h3 class="navbar-brand">AngularJS + RestMod + BootStrap + Gulp</h3>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div ui-view style="padding: 5px; "></div>
+</body>
+
+</html>
